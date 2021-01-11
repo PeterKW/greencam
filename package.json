@@ -4,7 +4,7 @@
   "description": "Virtual Green Background for Webcam",
   "main": "app.js",
   "scripts": {
-    "build":"rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist",
+    "build": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist",
     "test": "echo \"No test!\""
   },
   "repository": "https://github.com/nhtua/greencam/",
